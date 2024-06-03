@@ -1,0 +1,210 @@
+[
+  {
+   "screenID": 1,
+   "ScreenName": "Walkthrought"
+  },
+  {
+   "screenID": 2,
+   "ScreenName": "Splash Screen"
+  },
+  {
+   "screenID": 3,
+   "ScreenName": "SignUp Screen"
+  },
+  {
+   "screenID": 4,
+   "ScreenName": "OTP Screen"
+  },
+  {
+   "screenID": 5,
+   "ScreenName": "Home Screen"
+  },
+  {
+   "screenID": 6,
+   "ScreenName": "Notification Screen"
+  },
+  {
+   "screenID": 7,
+   "ScreenName": "ChatBot Empty Screen"
+  },
+  {
+   "screenID": 8,
+   "ScreenName": "Chatting Screen"
+  },
+  {
+   "screenID": 9,
+   "ScreenName": "No Internet Screen"
+  },
+  {
+   "screenID": 10,
+   "ScreenName": "Search Screen"
+  },
+  {
+   "screenID": 11,
+   "ScreenName": "Filter Screen"
+  },
+  {
+   "screenID": 12,
+   "ScreenName": "Search Result Screen"
+  },
+  {
+   "screenID": 13,
+   "ScreenName": "Category Screen"
+  },
+  {
+   "screenID": 14,
+   "ScreenName": "Add Property Screen"
+  },
+  {
+   "screenID": 15,
+   "ScreenName": "Property Detail Screen"
+  },
+  {
+   "screenID": 16,
+   "ScreenName": "Favourite Screen"
+  },
+  {
+   "screenID": 17,
+   "ScreenName": "Profile Screen"
+  },
+  {
+   "screenID": 18,
+   "ScreenName": "Payment Screen"
+  },
+  {
+   "screenID": 19,
+   "ScreenName": "View Property Contact History"
+  },
+  {
+   "screenID": 20,
+   "ScreenName": "Edit Profile Screen"
+  },
+  {
+   "screenID": 21,
+   "ScreenName": "Property Contact History Screen"
+  },
+  {
+   "screenID": 22,
+   "ScreenName": "Slider Details Screen"
+  },
+  {
+   "screenID": 23,
+   "ScreenName": "Subscription Detail Screen"
+  },
+  {
+   "screenID": 24,
+   "ScreenName": "About Us Screen"
+  },
+  {
+   "screenID": 25,
+   "ScreenName": "Advertisement See All Screen"
+  },
+  {
+   "screenID": 26,
+   "ScreenName": "Amenity Screen"
+  },
+  {
+   "screenID": 27,
+   "ScreenName": "Dashboard Screen"
+  },
+  {
+   "screenID": 28,
+   "ScreenName": "Privacy Policy Screen"
+  },
+  {
+   "screenID": 29,
+   "ScreenName": "Terms Conditions Screen"
+  },
+  {
+   "screenID": 30,
+   "ScreenName": "Success Property Screen"
+  },
+  {
+   "screenID": 31,
+   "ScreenName": "Owner Furnished SeeAll Screen"
+  },
+  {
+   "screenID": 32,
+   "ScreenName": "Photo Galley Screen"
+  },
+  {
+   "screenID": 33,
+   "ScreenName": "News All Screen"
+  },
+  {
+   "screenID": 34,
+   "ScreenName": "Help Center Screen"
+  },
+  {
+   "screenID": 35,
+   "ScreenName": "Setting Screen"
+  },
+  {
+   "screenID": 36,
+   "ScreenName": "No DataScreen"
+  },
+  {
+   "screenID": 37,
+   "ScreenName": "Limit Screen"
+  },
+  {
+   "screenID": 38,
+   "ScreenName": "My Properties Screen"
+  },
+  {
+   "screenID": 39,
+   "ScreenName": "Select Property List Screen"
+  },
+  {
+   "screenID": 40,
+   "ScreenName": "See All Screen"
+  },
+  {
+   "screenID": 41,
+   "ScreenName": "Property Contact Info Screen"
+  },
+  {
+   "screenID": 42,
+   "ScreenName": "Login Screen"
+  },
+  {
+   "screenID": 43,
+   "ScreenName": "Add Property History Screen"
+  },
+  {
+   "screenID": 44,
+   "ScreenName": "Category Selected Screen"
+  },
+  {
+   "screenID": 45,
+   "ScreenName": "Google Map Screen"
+  },
+  {
+   "screenID": 46,
+   "ScreenName": "Language Screen"
+  },
+  {
+   "screenID": 47,
+   "ScreenName": "Near By See All Screen"
+  },
+  {
+   "screenID": 48,
+   "ScreenName": "News Details Screen"
+  },
+  {
+   "screenID": 49,
+   "ScreenName": "Subscribe Screen"
+  },
+  {
+   "screenID": 50,
+   "ScreenName": "Other Screen"
+  },
+  {
+   "screenID": 51,
+   "ScreenName": "payment success screen"
+  },
+  {
+   "screenID": 52,
+   "ScreenName": "boost screen"
+  }
+ ]

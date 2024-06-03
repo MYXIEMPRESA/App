@@ -1,0 +1,2 @@
+language_name, language_code, language_flag, is_rtl( 0-no 1-yes ), status( 0-inactive 1-active )
+Gujarati,001,Gujarati,0, 1

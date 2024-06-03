@@ -1,0 +1,274 @@
+@import url(https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap);
+/*!
+*
+* Template: SimpleDash - Responsive Bootstrap 4 Admin Dashboard Template
+* Author: meetmighty
+* Design and Developed by: meetmighty.com
+* NOTE: This file contains the styling for responsive Template.
+*
+*/
+:root {
+  --mm-primary: #c9dcff;
+  --mm-secondary: #ccced2;
+  --mm-success: #aafad7;
+  --mm-info: #adf1ff;
+  --mm-warning: #ffbbab;
+  --mm-danger: #ffb3c2;
+  --mm-light: #c7cbd3;
+  --mm-dark: rgba(199, 203, 211, 0.1);
+  --mm-orange: #ffc4a0;
+  --mm-purple: #cbc0ff;
+  --mm-skyblue: #aad7ff;
+  --mm-primary: rgba(71, 136, 255, 0.1);
+  --mm-secondary: rgba(108, 117, 125, 0.1);
+  --mm-success: rgba(55, 230, 178, 0.1);
+  --mm-info: rgba(135, 108, 254, 0.1);
+  --mm-warning: rgba(254, 114, 28, 0.1);
+  --mm-danger: rgba(255, 75, 75, 0.1);
+  --mm-light: rgba(199, 203, 211, 0.1);
+  --mm-dark: rgba(1, 4, 27, 0.1);
+  --mm-orange: rgba(253, 126, 20, 0.1);
+  --mm-purple: rgba(71, 49, 182, 0.1);
+}
+
+:root {
+  --blue: #4788ff;
+  --indigo: #6610f2;
+  --purple: #4731b6;
+  --pink: #e83e8c;
+  --red: #f5365c;
+  --orange: #fe721c;
+  --yellow: #ffd600;
+  --green: #4fd69c;
+  --teal: #20c997;
+  --cyan: #37d5f2;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #01041b;
+  --skyblue: #158df7;
+  --primary: #4788ff;
+  --secondary: #6c757d;
+  --success: #4fd69c;
+  --info: #37d5f2;
+  --warning: #fc7c5f;
+  --danger: #f75676;
+  --light: #c7cbd3;
+  --dark: #01041b;
+  --orange: #fe721c;
+  --purple: #4731b6;
+  --skyblue: #158df7;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+[dir=rtl] .mm-top-navbar {
+  left: 0;
+  right: auto;
+  text-align: right;
+}
+[dir=rtl] .mm-top-navbar .mm-sub-dropdown {
+  left: 0;
+  right: auto;
+  text-align: right;
+}
+[dir=rtl] .mm-top-navbar .mm-sub-dropdown .dropdown-menu-1 {
+  padding: 0;
+}
+[dir=rtl] .mm-top-navbar .dropdown-menu .dropdown-item:before {
+  left: auto;
+  right: 0;
+}
+@media (max-width: 991px) {
+  [dir=rtl] .mm-top-navbar .mm-sub-dropdown {
+    right: 0;
+  }
+}
+@media (max-width: 575px) {
+  [dir=rtl] .mm-top-navbar .mm-sub-dropdown {
+    right: 0;
+    width: 100%;
+  }
+}
+[dir=rtl] .sidebar-default .mm-sidebar-menu li.active > a:before {
+  left: auto;
+  right: 0;
+}
+[dir=rtl] .sidebar-default .mm-sidebar-menu .side-menu li i {
+  margin-right: 0;
+  margin-left: 8px;
+}
+[dir=rtl] .sidebar-default .mm-sidebar-menu .side-menu li a .mm-arrow-right {
+  margin-right: auto;
+  margin-left: 0;
+  transform: rotate(180deg);
+}
+[dir=rtl] .sidebar-default .mm-sidebar-menu .side-menu li ul {
+  padding-right: 0;
+}
+[dir=rtl] .sidebar-default .mm-sidebar .mm-sidebar-menu .side-menu .submenu li:before {
+  left: auto;
+  right: 30px;
+}
+[dir=rtl] .sidebar-default .sidebar-main .mm-sidebar-menu .side-menu li ul {
+  padding-right: 0;
+}
+[dir=rtl] .mm-top-navbar .wrapper-menu {
+  margin: 0 0 0 15px;
+}
+@media (max-width: 1299px) {
+  [dir=rtl] .mm-sidebar {
+    left: auto;
+    right: -300px;
+  }
+  [dir=rtl] body.sidebar-main .mm-sidebar {
+    right: 0;
+  }
+}
+@media (min-width: 1300px) {
+  [dir=rtl] body.sidebar-main .mm-sidebar-logo {
+    transform: translateX(10px);
+  }
+}
+[dir=rtl] .dropdown-menu-right {
+  left: 0;
+  right: auto;
+}
+@media (max-width: 991px) {
+  [dir=rtl] .dropdown-menu-right {
+    right: 0;
+  }
+}
+@media (max-width: 575px) {
+  [dir=rtl] .dropdown-menu-right {
+    width: 100%;
+  }
+}
+[dir=rtl] .mm-footer {
+  margin-left: 0;
+  margin-right: 260px;
+}
+@media (max-width: 1299px) {
+  [dir=rtl] .mm-footer {
+    margin-right: 0;
+  }
+}
+@media (min-width: 1300px) {
+  [dir=rtl] body.sidebar-main .mm-footer {
+    margin-left: 0;
+    margin-right: 80px;
+  }
+}
+[dir=rtl] div.dataTables_wrapper div.dataTables_paginate {
+  text-align: left;
+}
+[dir=rtl] body {
+  text-align: right;
+}
+[dir=rtl] .text-left {
+  text-align: right !important;
+}
+[dir=rtl] .text-right {
+  text-align: left !important;
+}
+[dir=rtl] .float-right {
+  float: left !important;
+}
+[dir=rtl] .float-left {
+  float: right !important;
+}
+[dir=rtl] .form-check {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+[dir=rtl] .form-check-input {
+  margin-left: 0;
+  margin-right: -1.25rem;
+}
+[dir=rtl] .custom-control {
+  padding-left: 0;
+  padding-right: 1.5rem;
+}
+[dir=rtl] .nav {
+  padding: 0;
+}
+[dir=rtl] .iti--allow-dropdown .iti__flag-container, [dir=rtl] .iti--separate-dial-code .iti__flag-container {
+  left: auto;
+  right: 0;
+}
+[dir=rtl] .iti--allow-dropdown input[type=text]#phone.form-control {
+  padding-left: 6px !important;
+  padding-right: var(--block-width);
+}
+[dir=rtl] div.dataTables_wrapper div.dataTables_filter {
+  text-align: left;
+}
+[dir=rtl] .tox:not([dir=rtl]) {
+  direction: rtl;
+  text-align: right;
+}
+[dir=rtl] .custom-file-label::after {
+  left: 0;
+  right: auto;
+  border-radius: 4px 0 0 4px;
+  border-left: none;
+}
+[dir=rtl] .iti--separate-dial-code .iti__selected-dial-code {
+  margin-left: 0;
+  margin-right: 6px;
+}
+[dir=rtl] .iti__flag-box, [dir=rtl] .iti__country-name {
+  margin-left: 6px;
+}
+[dir=rtl] table.dataTable > thead .sorting:before, [dir=rtl] table.dataTable > thead .sorting_asc:before, [dir=rtl] table.dataTable > thead .sorting_desc:before, [dir=rtl] table.dataTable > thead .sorting_asc_disabled:before, [dir=rtl] table.dataTable > thead .sorting_desc_disabled:before {
+  right: auto;
+  left: 1rem;
+}
+[dir=rtl] table.dataTable > thead .sorting:after, [dir=rtl] table.dataTable > thead .sorting_asc:after, [dir=rtl] table.dataTable > thead .sorting_desc:after, [dir=rtl] table.dataTable > thead .sorting_asc_disabled:after, [dir=rtl] table.dataTable > thead .sorting_desc_disabled:after {
+  right: auto;
+  left: 0.5em;
+}
+@media (max-width: 767px) {
+  [dir=rtl] div.dataTables_wrapper div.dataTables_filter {
+    text-align: center;
+  }
+}
+[dir=rtl] .mm-cart-text {
+  text-align: right;
+}
+@media (min-width: 1300px) {
+  [dir=rtl] body.mm-saidbar-primary.sidebar-main .mm-sidebar-menu .side-menu li ul {
+    padding-right: 0;
+  }
+}
+[dir=rtl] .content-page {
+  margin-left: 0;
+  margin-right: 260px;
+}
+[dir=rtl] .side-menu-bt-sidebar {
+  padding-left: 0;
+  padding-right: 20px;
+}
+@media (min-width: 1300px) {
+  [dir=rtl] body.sidebar-main .content-page {
+    margin-left: 0;
+    margin-right: 80px;
+  }
+}
+@media (max-width: 1299px) {
+  [dir=rtl] .content-page {
+    margin-right: 0;
+  }
+}
+[dir=rtl] .change-mode {
+  margin-right: 0;
+  margin-left: 25px;
+}
+[dir=rtl] .crm-p-image {
+  left: auto;
+  right: 69px;
+}
